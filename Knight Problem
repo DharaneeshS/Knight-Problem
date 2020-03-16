@@ -1,0 +1,19 @@
+def solve(n,sr,er,sc,ec):
+  if sr > sc and er >sc:
+    q=sr-sc
+    q1=er-ec
+  else:
+     q=sc-sr
+     q1=ec-er
+ w=q+q1
+ if w==0:
+    return math.ceil(w/3)
+import math
+n=int(input())
+sr=int(input())
+er=int(input())
+sc=int(input())
+ec=int(input())
+res=solve(n,sr,er,sc,ec)
+print(res
+   
